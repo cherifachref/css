@@ -1,0 +1,43 @@
+body {
+    background:no-repeat center url("pok.jpg");
+
+}
+
+li {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 3rem;
+    padding: 1em;
+    
+}
+a {
+    color:rgb(51, 8, 80);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#about {
+    float: right;
+    padding-right: 3px;
+}
+li:hover{
+    background-color: chartreuse;
+}
+.navbar{
+    background-image: linear-gradient(to right, red , yellow);
+    padding: 3px;
+    border-radius: 30px;
+    border-color: rgb(255, 80, 240);
+    border:solid black 3px;
+}
+.p1 {
+    font-size: 2rem;
+    color: rgb(226, 40, 27);
+    text-shadow: 2px 2px rgb(80, 9, 161);
+    text-align: center;
+    text-decoration: underline overline wavy yellow;
+}
+.im{
+    border-radius: 100px;
+    border-color: darkviolet;
+    border:dotted red 5px;
+}
